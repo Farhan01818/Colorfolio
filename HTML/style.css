@@ -319,9 +319,9 @@ ul.nav i:hover{
     margin-top: 60px;
 }
 
-/*======== DOT======== */
+/*========DOT======== */
 
-.resume-right{
+.resume-left{
     position: relative;
 }
 .dot{
@@ -335,15 +335,14 @@ ul.nav i:hover{
     position: absolute;
     right: 1rem;
     content: '';
+    z-index: 2;
 }
 
-.dot::after{
-    height: 300px;
-    width: 1px;
-    background-color:#e8753262;
-    content: '';
-    top: 0;
-    right: 1.4rem;
-   position: absolute;
-   z-index: -55;
+.line {
+    background-color:#e8753241;
+    height: 450px;
+    width: 2px;
+    position: absolute;
+    right:22px;
+    z-index: -1;
 }
